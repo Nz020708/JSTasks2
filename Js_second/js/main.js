@@ -36,27 +36,13 @@
 //     A=+prompt("Value must be a number.Please try again.:");
      
 //    }
-// let result;
-// if (A%2==0) {
-//   result=A/2;
-//   console.log(`The largest divisor of ${A} is ${result}`);
+// let largestDiv=0;
+// for (let divisor = 1; divisor < A; divisor++) {
+//     if(A%divisor==0){
+//         largestDiv=divisor;
+//     }
 // }
-// else if (A%3==0){
-//     result=A/3;
-//     console.log(`The largest divisor of ${A} is ${result}`);
-// }
-// else if (A%5==0){
-//     result=A/5;
-//     console.log(`The largest divisor of ${A} is ${result}`);
-
-// }
-// else if (A%7==0){
-//     result=A/7;
-//     console.log(`The largest divisor of ${A} is ${result}`);
-// }
-// else{
-//     alert('This number is a prime number.')
-// }
+// console.log(largestDiv);
 
 
 
